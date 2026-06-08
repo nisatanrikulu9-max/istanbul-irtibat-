@@ -1,0 +1,6 @@
+{
+  "name": "İstanbul Kadın ve Aile Merkezleri Haritası",
+  "description": "İstanbul'daki kadın ve aile dayanışma merkezlerini harita üzerinde konumları, telefon numaraları ve iletişim bilgileriyle gösteren rehber ve harita uygulaması.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

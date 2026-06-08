@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,900&family=Inter:wght@300;400;550;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --color-paper: #F9F7F2;
+  --color-ink: #1A1A1A;
+  --color-accent: #D94E33;
+  --color-accent-hover: #BF3F26;
+  --color-muted-gray: #7A7672;
+}
+
+@keyframes leaflet-ping {
+  0% {
+    transform: scale(0.65);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+/* Leaflet UI Custom Overrides to Editorial theme */
+.leaflet-popup-content-wrapper {
+  background-color: #F9F7F2 !important;
+  color: #1A1A1A !important;
+  border: 1px solid rgba(26, 26, 26, 0.15) !important;
+  border-radius: 0px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.leaflet-popup-tip {
+  background-color: #F9F7F2 !important;
+  border: 1px solid rgba(26, 26, 26, 0.15) !important;
+}
+
+.leaflet-tooltip {
+  background-color: #F9F7F2 !important;
+  color: #1A1A1A !important;
+  border: 1px solid rgba(26, 26, 26, 0.15) !important;
+  border-radius: 0px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Custom leaflet bar styled to high contrast */
+.leaflet-bar {
+  border-radius: 0px !important;
+  border: 1px solid rgba(26, 26, 26, 0.2) !important;
+  box-shadow: none !important;
+}
+
+.leaflet-bar a {
+  background-color: #F9F7F2 !important;
+  color: #1A1A1A !important;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.1) !important;
+  border-radius: 0px !important;
+}
+
+.leaflet-bar a:hover {
+  background-color: #1A1A1A !important;
+  color: #F9F7F2 !important;
+}
+
