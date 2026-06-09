@@ -16,12 +16,12 @@ export default function App() {
     try {
       setLoading(true);
       setError(null);
-      const res = await fetch("/api/center.json");
+      const res = await fetch("/center.json");
       if (!res.ok) {
         throw new Error(`Veriler yüklenemedi: ${res.statusText}`);
       }
       const result = await res.json();
-      if (result.success && result.data) {
+      if (result) {
         setCenters(result);
       } else {
         throw new Error("Geçersiz veri biçimi");
