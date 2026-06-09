@@ -116,7 +116,8 @@ const selectedHeartPin = L.divIcon({
   popupAnchor: [0, -16],
 });
 
-export default function MapPage({ centers, onBackToHome, loading, refreshing, onRefresh }: MapPageProps) {
+  export default function MapPage({ centers, onBackToHome, loading, refreshing, onRefresh }){ 
+    centers = Array.isArray(centers) ? centers : [];
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedDistrict, setSelectedDistrict] = useState("Tümü");
   const [activeCenter, setActiveCenter] = useState<Center | null>(null);
