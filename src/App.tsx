@@ -17,15 +17,16 @@ export default function App() {
     setError(null);
     try {
       const res = await fetch("/merkez.json");
-      if (!res.ok) throw new Error("Dosya bulunamadı");
+      if (!res.ok) throw new Error("Veri dosyası bulunamadı");
       const data = await res.json();
-      setCenters(data); // Veriyi doğrudan yüklüyoruz
+      setCenters(data);
     } catch (e: any) {
       console.error("Hata:", e);
       setError("Veriler yüklenemedi.");
     } finally {
       setLoading(false);
     }
+  };
   };
     } catch (e: any) {
       console.error("API error fetching centers:", e);
