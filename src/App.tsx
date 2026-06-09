@@ -13,19 +13,20 @@ export default function App() {
 
   // Fetch solidarity centers from Express backend
   const fetchCenters = async () => {
+    setLoading(true);
+    setError(null);
     try {
-      setLoading(true);
-      setError(null);
       const res = await fetch("/center.json");
-      if (!res.ok) {
-        throw new Error(`Veriler yüklenemedi: ${res.statusText}`);
-      }
-      const result = await res.json();
-      if (result) {
-        setCenters(result);
-      } else {
-        throw new Error("Geçersiz veri biçimi");
-      }
+      if (!res.ok) throw new Error("Dosya bulunamadı");
+      const data = await res.json();
+      setCenters(data); // Veriyi doğrudan yüklüyoruz
+    } catch (e: any) {
+      console.error("Hata:", e);
+      setError("Veriler yüklenemedi.");
+    } finally {
+      setLoading(false);
+    }
+  };
     } catch (e: any) {
       console.error("API error fetching centers:", e);
       setError(e.message || "Bilinmeyen bir hata oluştu.");
