@@ -16,7 +16,7 @@ export default function App() {
     try {
       setLoading(true);
       setError(null);
-      const res = await fetch("/api/centers");
+      const res = await fetch("/api/center.json");
       if (!res.ok) {
         throw new Error(`Veriler yüklenemedi: ${res.statusText}`);
       }
