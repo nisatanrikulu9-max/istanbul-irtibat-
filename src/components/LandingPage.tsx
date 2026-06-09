@@ -7,7 +7,7 @@ interface LandingPageProps {
   loading: boolean;
 }
 
-export default function LandingPage({ onExploreMap, centers, loading }: LandingPageProps) {
+export default function LandingPage({ onExploreMap, centers = [], loading }: LandingPageProps) {
   // Extract stats
   const totalCenters = centers.length;
   const uniqueDistricts = Array.from(new Set(centers.map(c => c.district))).length;
