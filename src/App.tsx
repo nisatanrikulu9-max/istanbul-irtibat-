@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import LandingPage from './LandingPage'; // Dosya ismin buysa
-import MapPage from './MapPage'; // Dosya ismin buysa
+import LandingPage from './LandingPage';
+import MapPage from './MapPage';
 
 export default function App() {
   const [centers, setCenters] = useState<any[]>([]);
@@ -17,6 +17,7 @@ export default function App() {
       const data = await res.json();
       setCenters(data);
     } catch (e: any) {
+      console.error(e);
       setError("Veriler yüklenemedi.");
     } finally {
       setLoading(false);
@@ -34,7 +35,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800">
+    <div className="min-h-screen bg-slate-50">
       <MapPage 
         centers={centers} 
         loading={loading} 
