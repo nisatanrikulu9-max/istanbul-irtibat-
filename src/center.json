@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Kadın Destek Merkezi",
+    "district": "Beşiktaş",
+    "address": "Ihlamurdere Cad. No:12",
+    "phone": "0212 123 45 67",
+    "latitude": 41.042,
+    "longitude": 29.006
+  },
+  {
+    "id": "2",
+    "name": "Aile Danışma Birimi",
+    "district": "Kadıköy",
+    "address": "Moda Cad. No:45",
+    "phone": "0216 987 65 43",
+    "latitude": 40.985,
+    "longitude": 29.027
+  }
+]
