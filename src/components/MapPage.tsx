@@ -136,9 +136,9 @@ const selectedHeartPin = L.divIcon({
   const filteredCenters = useMemo(() => {
     return centers.filter((center) => {
       const matchesSearch =
-        center.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        center.address.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        center.district.toLowerCase().includes(searchQuery.toLowerCase());
+        center.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        center.address || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        center.district || "").toLowerCase().includes(searchQuery.toLowerCase());
       
       const matchesDistrict =
         selectedDistrict === "Tümü" || center.district === selectedDistrict;
