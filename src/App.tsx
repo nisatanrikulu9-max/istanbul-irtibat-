@@ -1,7 +1,5 @@
-import { useState, useEffect } from 'react';
-import LandingPage from './LandingPage';
-import MapPage from './MapPage';
-
+import LandingPage from './components/LandingPage';
+import MapPage from './components/MapPage';
 export default function App() {
   const [centers, setCenters] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
