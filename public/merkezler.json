@@ -1,11 +1,902 @@
 [
   {
     "id": "1",
-    "name": "Test Merkezi",
-    "district": "Beşiktaş",
-    "address": "Ihlamurdere Cad.",
-    "phone": "0212 123 45 67",
-    "latitude": 41.042,
-    "longitude": 29.006
+    "name": "Mor Çatı",
+    "district": "İSTANBUL",
+    "address": "Mor Çatı Women's Shelter Foundation",
+    "phone": "2126569696",
+    "latitude": 41.04028,
+    "longitude": 28.98603
+  },
+  {
+    "id": "2",
+    "name": "(KADAV)",
+    "district": "İSTANBUL",
+    "address": "KADAV – Kadınlarla Dayanışma Vakfı",
+    "phone": "2122515850",
+    "latitude": 41.00726,
+    "longitude": 28.79558
+  },
+  {
+    "id": "3",
+    "name": "(KEDEV)",
+    "district": "İSTANBUL",
+    "address": "Kadın Emeğini Değerlendirme Vakfı",
+    "phone": "2122922672",
+    "latitude": 41.03641,
+    "longitude": 28.98213
+  },
+  {
+    "id": "4",
+    "name": "KAGİDER",
+    "district": "İSTANBUL",
+    "address": "Women Entrepreneurs Association of Turkey",
+    "phone": "2122668261",
+    "latitude": 41.08079,
+    "longitude": 28.01056
+  },
+  {
+    "id": "5",
+    "name": "İstanbul barosu kadın hakları merkezi",
+    "district": "İSTANBUL",
+    "address": "Istanbul Bar Association",
+    "phone": "2122516325",
+    "latitude": 41.03075,
+    "longitude": 28.97503
+  },
+  {
+    "id": "6",
+    "name": "ŞÖNİM",
+    "district": "İSTANBUL",
+    "address": "İstanbul Valiliği Şiddeti Önleme ve İzleme Merkezi",
+    "phone": "2124652196",
+    "latitude": 40.96265,
+    "longitude": 28.8228
+  },
+  {
+    "id": "7",
+    "name": "İBB kadın ve aile hizmetleri müdürlüğü",
+    "district": "İSTANBUL",
+    "address": "İBB Kadın ve Aile Hizmetleri Müdürlüğü",
+    "phone": "4448086",
+    "latitude": 40.99101,
+    "longitude": 28.83054
+  },
+  {
+    "id": "8",
+    "name": "Çukurova Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "district": "İSTANBUL",
+    "address": "Şiddet Önleme ve İzleme Merkezi",
+    "phone": "",
+    "latitude": 37.03843,
+    "longitude": 35.28435
+  },
+  {
+    "id": "9",
+    "name": "Adıyaman Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "district": "İSTANBUL",
+    "address": "ŞİDDET ÖNLEME VE İZLEME NERKEZİ MÜDÜRLÜĞÜ ADIYAMAN",
+    "phone": "",
+    "latitude": 37.76207,
+    "longitude": 38.29044
+  },
+  {
+    "id": "10",
+    "name": "Şişli Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "T.C. Şişli Belediyesi Kadın Danışma Merkezi",
+    "phone": "4443112",
+    "latitude": 41.06477,
+    "longitude": 28.97096
+  },
+  {
+    "id": "11",
+    "name": "Beşiktaş Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "Kadın Dayanışma ve Yaşam Merkezi",
+    "phone": "4444455",
+    "latitude": 41.0766,
+    "longitude": 29.01567
+  },
+  {
+    "id": "12",
+    "name": "Üsküdar Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "ÜKAD ÜSKÜDAR KADIN VE AİLE DAYANIŞMA MERKEZİ",
+    "phone": "2163335225",
+    "latitude": 41.0297,
+    "longitude": 29.02821
+  },
+  {
+    "id": "13",
+    "name": "Maltepe Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "Maltepe Belediyesi Prof.Dr. İoanna Kuçuradi Kadın Danışma Merkezi",
+    "phone": "",
+    "latitude": 40.9469,
+    "longitude": 29.10866
+  },
+  {
+    "id": "14",
+    "name": "Bakırköy Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "Istanbul Metropolitan Municipality Woman Coordination Center",
+    "phone": "2124149777",
+    "latitude": 40.99004,
+    "longitude": 28.83019
+  },
+  {
+    "id": "15",
+    "name": "Beylikdüzü Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "Beylikdüzü Belediyesi Kadın ve Aile Hizmetleri Müdürlüğü Danışma Takip ve Rehabilite Hizmetleri",
+    "phone": "4440939",
+    "latitude": 40.98545,
+    "longitude": 28.60598
+  },
+  {
+    "id": "16",
+    "name": "Ataşehir Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "Ataşehir Municipality",
+    "phone": "",
+    "latitude": 40.99722,
+    "longitude": 29.10075
+  },
+  {
+    "id": "17",
+    "name": "Kartal Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "T. C. Kartal Belediyesi KaDin Danişma Merkezi",
+    "phone": "2162806406",
+    "latitude": 40.89748,
+    "longitude": null
+  },
+  {
+    "id": "18",
+    "name": "Zonguldak Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "İSTANBUL",
+    "address": "Provincial Directorate of Family and Social Policies, Trabzon",
+    "phone": "",
+    "latitude": 40.99678,
+    "longitude": 39.74273
+  },
+  {
+    "id": "19",
+    "name": "Sultangazi Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "İstanbul Aile Danışmanlık Ve Eğitim Merkezi",
+    "phone": "2124593434",
+    "latitude": 41.10871,
+    "longitude": 28.86576
+  },
+  {
+    "id": "20",
+    "name": "Esenler Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "ESAYDAM (Esenler Aile Yaşam ve Danışma Merkezi)",
+    "phone": "2126295301",
+    "latitude": 41.0582,
+    "longitude": 28.86379
+  },
+  {
+    "id": "21",
+    "name": "Gaziosmanpaşa Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "Gaziosmanpaşa Belediyesi Aile Danişma Merkezi",
+    "phone": "4440467",
+    "latitude": 41.06032,
+    "longitude": 28.9084
+  },
+  {
+    "id": "22",
+    "name": "Küçükçekmece Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "Kadin Eşitlik Merkezi",
+    "phone": "4444360",
+    "latitude": 41.02656,
+    "longitude": 28.79292
+  },
+  {
+    "id": "23",
+    "name": "Yalova Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "district": "İSTANBUL",
+    "address": "Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "phone": "",
+    "latitude": 40.65227,
+    "longitude": 29.24537
+  },
+  {
+    "id": "24",
+    "name": "Avcılar Belediyesi Kadın ve Aile Sağlığı Merkezi",
+    "district": "İSTANBUL",
+    "address": "Avcılar Kadın Ve Aile Sağlığı Mer.",
+    "phone": "4446989",
+    "latitude": 40.97894,
+    "longitude": 28.72693
+  },
+  {
+    "id": "25",
+    "name": "Zeytinburnu Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "Aile Kadın Destekleme ve Engelliler Merkezi AKDEM",
+    "phone": "2124131111",
+    "latitude": 40.99498,
+    "longitude": 28.9086
+  },
+  {
+    "id": "26",
+    "name": "Fatih Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "Fatih Belediye Başkanlığı Ana Bina",
+    "phone": "2125215363",
+    "latitude": 41.0177,
+    "longitude": 28.94038
+  },
+  {
+    "id": "27",
+    "name": "Beyoğlu Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "Kadın Sağlığı Danışma Merkezi",
+    "phone": "2122440888",
+    "latitude": 41.03657,
+    "longitude": 28.97527
+  },
+  {
+    "id": "28",
+    "name": "Ümraniye Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "T.C. Ümraniye Belediyesi",
+    "phone": "4449822",
+    "latitude": 41.02978,
+    "longitude": 29.09918
+  },
+  {
+    "id": "29",
+    "name": "Eyüpsultan Belediyesi Kadın Danışma Merkezi",
+    "district": "İSTANBUL",
+    "address": "ESADEM - Eyüpsultan Aile Danışmanlık ve Eğitim Merkezi",
+    "phone": "2124401544",
+    "latitude": 41.04724,
+    "longitude": 28.9364
+  },
+  {
+    "id": "30",
+    "name": "İstanbul Üniversitesi Kadın Çalışmaları Merkezi",
+    "district": "İSTANBUL",
+    "address": "Istanbul University",
+    "phone": "2124400000",
+    "latitude": 41.01275,
+    "longitude": 28.96187
+  },
+  {
+    "id": "31",
+    "name": "Boğaziçi Üniversitesi Toplumsal Cinsiyet Merkezi",
+    "district": "İSTANBUL",
+    "address": "Boğaziçi University",
+    "phone": "2123595400",
+    "latitude": 41.08373,
+    "longitude": 29.05169
+  },
+  {
+    "id": "32",
+    "name": "Koç Üniversitesi Toplumsal Cinsiyet Merkezi",
+    "district": "İSTANBUL",
+    "address": "Koç Üniversitesi Rumeli Feneri Kampüsü",
+    "phone": "2123381000",
+    "latitude": 41.19867,
+    "longitude": 29.07199
+  },
+  {
+    "id": "33",
+    "name": "Sabancı Üniversitesi Toplumsal Cinsiyet Forumu",
+    "district": "İSTANBUL",
+    "address": "Sabancı Üniversitesi Bilgi Merkezi",
+    "phone": "2164839000",
+    "latitude": 40.89029,
+    "longitude": 29.37722
+  },
+  {
+    "id": "34",
+    "name": "Marmara Üniversitesi Kadın ve Aile Çalışmaları Merkezi",
+    "district": "İSTANBUL",
+    "address": "Faculty of Humanities and Sciences",
+    "phone": "2167771645",
+    "latitude": 40.98728,
+    "longitude": 29.05401
+  },
+  {
+    "id": "35",
+    "name": "Yıldız Teknik Üniversitesi Kadın Çalışmaları Merkezi",
+    "district": "İSTANBUL",
+    "address": "Yıldız Technical University",
+    "phone": "2123836000",
+    "latitude": 41.0522,
+    "longitude": 29.01054
+  },
+  {
+    "id": "36",
+    "name": "Türk Kadınlar Birliği Kadıköy Şubesi",
+    "district": "İSTANBUL",
+    "address": "Türk Kadınlar Birliği Kadıköy Şubesi",
+    "phone": "2164148616",
+    "latitude": 40.99006,
+    "longitude": 29.02772
+  },
+  {
+    "id": "37",
+    "name": "KA-DER İstanbul Şubesi",
+    "district": "İSTANBUL",
+    "address": "Ka-Der",
+    "phone": "2122732536",
+    "latitude": 40.99562,
+    "longitude": 29.03888
+  },
+  {
+    "id": "38",
+    "name": "Uşak Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "district": "UŞAK",
+    "address": "Uşak ŞÖNİM",
+    "phone": "2124494422",
+    "latitude": 38.66737,
+    "longitude": 29.42079
+  },
+  {
+    "id": "39",
+    "name": "Kadının İnsan Hakları Derneği (KİH)",
+    "district": "İSTANBUL",
+    "address": "Ağa Çırağı Sk. No:7",
+    "phone": "2122510029",
+    "latitude": 41.03442,
+    "longitude": 28.98771
+  },
+  {
+    "id": "40",
+    "name": "Antalya Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "district": "ANTALYA",
+    "address": "ŞÖNİM",
+    "phone": "0242 227 20 62",
+    "latitude": 36.8911,
+    "longitude": 30.69601
+  },
+  {
+    "id": "41",
+    "name": "Ardahan Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "ARDAHAN",
+    "address": "Ardahan Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0478 211 57 77",
+    "latitude": 41.11085,
+    "longitude": 42.69969
+  },
+  {
+    "id": "42",
+    "name": "Aydın Valiliği Şiddet Önleme ve İzleme Merkezi Müdürlüğü",
+    "district": "AYDIN",
+    "address": "Aydın Valiliği Şiddet Önleme ve İzleme Merkezi Müdürlüğü",
+    "phone": "256 214 55 10",
+    "latitude": 37.85372,
+    "longitude": 27.84667
+  },
+  {
+    "id": "43",
+    "name": "Balıkesir Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "BALIKESİR",
+    "address": "Balıkesir Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0266 249 29 73",
+    "latitude": 39.64814,
+    "longitude": 27.84878
+  },
+  {
+    "id": "44",
+    "name": "Bayburt Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "BAYBURT",
+    "address": "Bayburt Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0458 211 46 01",
+    "latitude": 40.25397,
+    "longitude": 40.22385
+  },
+  {
+    "id": "45",
+    "name": "Aile ve Sosyal Hizmetler İl Müdürlüğü Bilecik",
+    "district": "BİLECİK",
+    "address": "Aile ve Sosyal Hizmetler İl Müdürlüğü Bilecik",
+    "phone": "0228 212 20 35",
+    "latitude": 40.13363,
+    "longitude": 29.97632
+  },
+  {
+    "id": "46",
+    "name": "Bingöl İl Sosyal Hizmetler Müdürlüğü",
+    "district": "BİNGÖL",
+    "address": "Il Sosyal Hizmetler Mudurlugu",
+    "phone": "0426 213 15 40",
+    "latitude": 38.88381,
+    "longitude": 40.49573
+  },
+  {
+    "id": "47",
+    "name": "Bolu Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "BOLU",
+    "address": "Bolu Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0374 215 81 76",
+    "latitude": 40.74599,
+    "longitude": 31.60575
+  },
+  {
+    "id": "48",
+    "name": "Burdur Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "BURDUR",
+    "address": "Burdur Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0374 215 81 76",
+    "latitude": 37.72069,
+    "longitude": 30.2764
+  },
+  {
+    "id": "49",
+    "name": "Bursa Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "district": "BURSA",
+    "address": "ŞİDDET ÖNLEME VE İZLEME MERKEZİ",
+    "phone": "0248 233 18 41",
+    "latitude": 40.18908,
+    "longitude": 29.04724
+  },
+  {
+    "id": "50",
+    "name": "Çanakkale Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "district": "ÇANAKKALE",
+    "address": "Şiddet Önleme ve İzleme Merkezi",
+    "phone": "0224 223 03 68",
+    "latitude": 40.12271,
+    "longitude": 26.41295
+  },
+  {
+    "id": "51",
+    "name": "Çorum Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "ÇORUM",
+    "address": "Aile ve Sosyal Hizmetler İl Müdürlüğü, Çorum",
+    "phone": "0286 218 09 82",
+    "latitude": 40.5524,
+    "longitude": 34.95948
+  },
+  {
+    "id": "52",
+    "name": "Çankırı Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "ÇANKIRI",
+    "address": "Çankırı Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0364 224 65 32",
+    "latitude": 40.59964,
+    "longitude": 33.61756
+  },
+  {
+    "id": "53",
+    "name": "Denizli Valiliği Şiddet Önleme Ve İzleme Merkezi",
+    "district": "DENİZLİ",
+    "address": "Denizli Valiliği Şiddet Önleme Ve İzleme Merkezi",
+    "phone": "0376 213 26 89",
+    "latitude": 37.73189,
+    "longitude": 29.13054
+  },
+  {
+    "id": "54",
+    "name": "Düzce Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "DÜZCE",
+    "address": "Düzce Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 258 266 41 66",
+    "latitude": 40.84559,
+    "longitude": 31.14147
+  },
+  {
+    "id": "55",
+    "name": "Edirne Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "EDİRNE",
+    "address": "Edirne Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0380 512 33 40",
+    "latitude": 41.67276,
+    "longitude": 26.57955
+  },
+  {
+    "id": "56",
+    "name": "Erzincan Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "ERZİNCAN",
+    "address": "Erzincan Provincial Directorate of Family and Social Policies",
+    "phone": "0284 212 25 89",
+    "latitude": 39.746,
+    "longitude": 39.51144
+  },
+  {
+    "id": "57",
+    "name": "Erzurum Şiddet Önleme Ve İzleme Merkezi Müdürlüğü",
+    "district": "ERZURUM",
+    "address": "Erzurum Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0446 214 38 47",
+    "latitude": 39.8993,
+    "longitude": 41.27798
+  },
+  {
+    "id": "58",
+    "name": "Eskişehir Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "ESKİŞEHİR",
+    "address": "Eskişehir Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0442 215 14 00",
+    "latitude": 39.76609,
+    "longitude": 30.53934
+  },
+  {
+    "id": "59",
+    "name": "GAZİANTEP AİLE ve SOSYAL HİZMETLER İL MÜDÜRLÜĞÜ",
+    "district": "GAZİANTEP",
+    "address": "GAZİANTEP AİLE ve SOSYAL HİZMETLER İL MÜDÜRLÜĞÜ",
+    "phone": "0222 217 46 05",
+    "latitude": 37.08086,
+    "longitude": 37.35335
+  },
+  {
+    "id": "60",
+    "name": "Giresun Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "GİRESUN",
+    "address": "Giresun Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 342 231 65 21",
+    "latitude": 40.90819,
+    "longitude": 38.36145
+  },
+  {
+    "id": "61",
+    "name": "Gümüşhane Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "GÜMÜŞHANE",
+    "address": "Il Sosyal Hizmetler Mudurlugu",
+    "phone": "0454 215 75 35",
+    "latitude": 40.4657,
+    "longitude": 39.46156
+  },
+  {
+    "id": "62",
+    "name": "Hakkari Aile Ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "HAKKARİ",
+    "address": "Hakkari Aile Ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0456 213 19 01",
+    "latitude": 37.5809,
+    "longitude": 43.73577
+  },
+  {
+    "id": "63",
+    "name": "Hatay Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "HATAY",
+    "address": "Hatay Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0438 211 99 19",
+    "latitude": 36.21256,
+    "longitude": 36.1614
+  },
+  {
+    "id": "64",
+    "name": "Isparta Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "ISPARTA",
+    "address": "Isparta Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0326 216 10 89",
+    "latitude": 37.77094,
+    "longitude": 30.54902
+  },
+  {
+    "id": "65",
+    "name": "İzmir Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "İZMİR",
+    "address": "İzmir Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 246 223 49 40",
+    "latitude": 38.42422,
+    "longitude": 27.14168
+  },
+  {
+    "id": "66",
+    "name": "kahramanmaraş aile ve sosyal hizmetler il müdürlüğü",
+    "district": "KAHRAMANMARAŞ",
+    "address": "Aile Ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 232 446 33 52",
+    "latitude": 37.59007,
+    "longitude": 36.87714
+  },
+  {
+    "id": "67",
+    "name": "Kahramanmaraş Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "district": "KAHRAMANMARAŞ",
+    "address": "Kahramanmaraş Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "phone": "0 344 215 86 45",
+    "latitude": 37.58995,
+    "longitude": 36.87886
+  },
+  {
+    "id": "68",
+    "name": "Karabük aile ve sosyal hizmetler il müdürlüğü",
+    "district": "KARABÜK",
+    "address": "T.C. Karabak Aile Ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 344 215 16 26",
+    "latitude": 41.20091,
+    "longitude": 32.62641
+  },
+  {
+    "id": "69",
+    "name": "Karaman Aile Ve Sosyal Politikalar İl Müdürlüğü",
+    "district": "KARAMAN",
+    "address": "Aile ve Sosyal Politikalar Il Mudurlugu",
+    "phone": "0 370 412 23 48",
+    "latitude": 37.18467,
+    "longitude": 33.21774
+  },
+  {
+    "id": "70",
+    "name": "Kars Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "KARS",
+    "address": "Kars Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 338 213 75 16",
+    "latitude": 40.6013,
+    "longitude": 43.09205
+  },
+  {
+    "id": "71",
+    "name": "Kastamonu Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "KASTAMONU",
+    "address": "Kastamonu Aile Ve Sosyal Politikalar Il Müdürlüğü",
+    "phone": "0474 212 69 10",
+    "latitude": 41.36989,
+    "longitude": 33.77046
+  },
+  {
+    "id": "72",
+    "name": "Kastamonu İli Sosyal Yardımlaşma Ve Dayanışma Vakfı",
+    "district": "KASTAMONU",
+    "address": "Kastamonu Ili Sosyal Yardimlasma ve Dayanisma Vakfi",
+    "phone": "0366 214 92 18",
+    "latitude": 41.71765,
+    "longitude": 33.82667
+  },
+  {
+    "id": "73",
+    "name": "Kayseri Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "KAYSERİ",
+    "address": "Kayseri Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 352 221 34 91",
+    "latitude": 38.70986,
+    "longitude": 35.50397
+  },
+  {
+    "id": "74",
+    "name": "Kırıkkale Aile Ve Sosyal Politikalar il Müdürlüğü",
+    "district": "KIRIKKALE",
+    "address": "Kırıkkale Aile Ve Sosyal Politikalar il Müdürlüğü",
+    "phone": "0 318 224 07 19",
+    "latitude": 39.83421,
+    "longitude": 33.49583
+  },
+  {
+    "id": "75",
+    "name": "Kırklareli Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "KIRIKLARELİ",
+    "address": "Kırklareli Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 288 214 44 41",
+    "latitude": 41.73274,
+    "longitude": 27.23437
+  },
+  {
+    "id": "76",
+    "name": "Kırklareli Şiddet Önleme ve İzleme Merkezi Müdürlüğü",
+    "district": "KIRIKLARELİ",
+    "address": "Kırklareli Şiddet Önleme ve İzleme Merkezi Müdürlüğü",
+    "phone": "0 288 212 18 39",
+    "latitude": 41.73223,
+    "longitude": 27.23432
+  },
+  {
+    "id": "77",
+    "name": "Kırşehir Aile Ve Sosyal Politikalar il Müdürlüğü",
+    "district": "KIRŞEHİR",
+    "address": "Kırşehir Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 386 262 11 66",
+    "latitude": 39.1649,
+    "longitude": 34.15442
+  },
+  {
+    "id": "78",
+    "name": "Kocaeli Şiddet Önleme ve İzleme Merkezi Müdürlüğü",
+    "district": "KOCAELİ",
+    "address": "Kocaeli Şiddet Önleme ve İzleme Merkezi Müdürlüğü",
+    "phone": "0 262 321 02 06",
+    "latitude": 40.7629,
+    "longitude": 29.91826
+  },
+  {
+    "id": "79",
+    "name": "Kocaeli Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "KOCAELİ",
+    "address": "Kocaeli Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 262 323 20 07",
+    "latitude": 40.76512,
+    "longitude": 29.95963
+  },
+  {
+    "id": "80",
+    "name": "Konya Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "KONYA",
+    "address": "Konya Provincial Directorate of Family and Social Policies",
+    "phone": "0 332  320 84 41",
+    "latitude": 37.86309,
+    "longitude": 32.48981
+  },
+  {
+    "id": "81",
+    "name": "Kütahya Aile Çalışma Ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "KÜTAHYA",
+    "address": "KÜTAHYA AİLE ÇALIŞMA VE SOSYAL HİZMETLER İL MÜDÜRLÜĞÜ",
+    "phone": "0 274 333 24 53",
+    "latitude": 39.41902,
+    "longitude": 29.99489
+  },
+  {
+    "id": "82",
+    "name": "Malatya Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "MALATYA",
+    "address": "Malatya Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 422 325 99 22",
+    "latitude": 38.3432,
+    "longitude": 38.3135
+  },
+  {
+    "id": "83",
+    "name": "Mardin Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "MARDİN",
+    "address": "Mardin Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 482 502 03 68",
+    "latitude": 37.33425,
+    "longitude": 40.69136
+  },
+  {
+    "id": "84",
+    "name": "Manisa Şiddet Önleme ve İzleme Merkezi Müdürlüğü",
+    "district": "MANİSA",
+    "address": "Manisa Şiddet Önleme ve İzleme Merkezi Müdürlüğü",
+    "phone": "0 236 232 46 84",
+    "latitude": 38.61532,
+    "longitude": 27.41634
+  },
+  {
+    "id": "85",
+    "name": "Muş Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "MUŞ",
+    "address": "Provincial Directorate of Family and Social Policies",
+    "phone": "0436 216 40 11",
+    "latitude": 38.75014,
+    "longitude": 41.51162
+  },
+  {
+    "id": "86",
+    "name": "Niğde Aile ve Sosyal Hizmetler Bakanlığı",
+    "district": "NİĞDE",
+    "address": "Niğde Aile Ve Sosyal Politikalar İl Müdürlüğü",
+    "phone": "0 388 232 34 02",
+    "latitude": 37.9661,
+    "longitude": 34.70209
+  },
+  {
+    "id": "87",
+    "name": "Ordu Şiddet Önleme ve İzleme Merkezi Müdürlüğü (ŞÖNİM)",
+    "district": "ORDU",
+    "address": "Ordu Şiddet Önleme ve İzleme Merkezi Müdürlüğü (ŞÖNİM)",
+    "phone": "0 452 233 33 27",
+    "latitude": 40.95723,
+    "longitude": 37.90319
+  },
+  {
+    "id": "88",
+    "name": "Osmaniye Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "OSMANİYE",
+    "address": "Aile Ve Sosyal Politikalar İl Müdürlüğü",
+    "phone": "0 328 825 01 61",
+    "latitude": 37.05809,
+    "longitude": 36.21719
+  },
+  {
+    "id": "89",
+    "name": "Rize Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "RİZE",
+    "address": "Rize Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 464 213 04 04",
+    "latitude": 41.02242,
+    "longitude": 40.52855
+  },
+  {
+    "id": "90",
+    "name": "Sakarya Aile ve Sosyal hizmetler İl Müdürlüğü",
+    "district": "SAKARYA",
+    "address": "Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 264 277 36 87",
+    "latitude": 40.7602,
+    "longitude": 30.39115
+  },
+  {
+    "id": "91",
+    "name": "Samsun Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "SAMSUN",
+    "address": "Samsun Provincial Directorate of Family and Social Policies",
+    "phone": "0 362 435 59 45",
+    "latitude": 41.28662,
+    "longitude": 36.33583
+  },
+  {
+    "id": "92",
+    "name": "Samsun Şiddet Önleme ve İzleme Merkezi Müdürlüğü",
+    "district": "SAMSUN",
+    "address": "Samsun Şiddet Önleme ve İzleme Merkezi Müdürlüğü",
+    "phone": "0 362 431 11 87",
+    "latitude": 41.28928,
+    "longitude": 36.32975
+  },
+  {
+    "id": "93",
+    "name": "Siirt İl Sosyal Hizmetler Müdürlüğü",
+    "district": "SİİRT",
+    "address": "Il Sosyal Hizmetler Mudurlugu",
+    "phone": "0 484 223 22 77",
+    "latitude": 37.9321,
+    "longitude": 41.94336
+  },
+  {
+    "id": "94",
+    "name": "Sinop Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "SİNOP",
+    "address": "Sinop Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 368 261 52 27",
+    "latitude": 42.01991,
+    "longitude": 35.1302
+  },
+  {
+    "id": "95",
+    "name": "Sivas Aile Ve Sosyal Politikalar İl Müdürlüğü",
+    "district": "SİVAS",
+    "address": "Sivas Aile Ve Sosyal Politikalar İl Müdürlüğü",
+    "phone": "0 346 221 15 00",
+    "latitude": 39.75412,
+    "longitude": 37.01939
+  },
+  {
+    "id": "96",
+    "name": "Şanlıurfa Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "ŞANLIURFA",
+    "address": "Şanlıurfa Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 414 313 11 61",
+    "latitude": 37.18581,
+    "longitude": 38.79993
+  },
+  {
+    "id": "97",
+    "name": "Şanlıurfa Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "district": "ŞANLIURFA",
+    "address": "Şanlıurfa Şiddet Önleme ve İzleme Merkezi (ŞÖNİM)",
+    "phone": "0 414 313 56 31",
+    "latitude": 38.18265,
+    "longitude": 38.77772
+  },
+  {
+    "id": "98",
+    "name": "Tekirdağ Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "district": "TEKİRDAĞ",
+    "address": "Tekirdağ Aile ve Sosyal Hizmetler İl Müdürlüğü",
+    "phone": "0 282 261 12 88",
+    "latitude": 40.98733,
+    "longitude": 27.51365
+  },
+  {
+    "id": "99",
+    "name": "Şırnak İl Sosyal Hizmetler Müdürlüğü",
+    "district": "ŞIRNAK",
+    "address": "Il Sosyal Hizmetler Mudurlugu",
+    "phone": "0 486 216 29 83",
+    "latitude": 37.51844,
+    "longitude": 42.45892
+  },
+  {
+    "id": "100",
+    "name": "Aile, Çalışma ve Sosyal Hizmetler İl Müdürlüğü, Trabzon",
+    "district": "TRABZON",
+    "address": "Provincial Directorate of Family and Social Policies, Trabzon",
+    "phone": "0 462 230 19 79",
+    "latitude": 40.99704,
+    "longitude": 39.74264
   }
 ]
