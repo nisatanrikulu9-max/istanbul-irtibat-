@@ -1,68 +1,34 @@
-import { useState, useEffect } from "react";
-import LandingPage from "./components/LandingPage";
-import MapPage from "./components/MapPage";
-import { Center } from "./types";
-import { RefreshCw } from "lucide-react";
+mport { useState, useEffect } from 'react';
+import LandingPage from './LandingPage'; // Dosya ismin buysa
+import MapPage from './MapPage'; // Dosya ismin buysa
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<"landing" | "map">("landing");
-  const [centers, setCenters] = useState<Center[]>([]);
-  const [loading, setLoading] = useState<boolean>(true);
-  const [refreshing, setRefreshing] = useState<boolean>(false);
+  const [centers, setCenters] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch solidarity centers from Express backend
-const fetchCenters = async () => {
+  const fetchCenters = async () => {
     setLoading(true);
     setError(null);
     try {
       const res = await fetch("/merkezler.json");
-      if (!res.ok) throw new Error("Dosya bulunamadı");
+      if (!res.ok) throw new Error("Veri bulunamadı");
       const data = await res.json();
       setCenters(data);
     } catch (e: any) {
-      console.error("Hata:", e);
       setError("Veriler yüklenemedi.");
     } finally {
       setLoading(false);
     }
   };
-  return (
-    <div id="app-viewport" className="min-h-screen bg-slate-50 text-slate-800">
-      {currentPage === "landing" ? (
-        <LandingPage
-          onExploreMap={() => setCurrentPage("map")}
-          centers={centers}
-          loading={loading}
-        />
-      ) : (
-        <MapPage
-          centers={centers}
-          onBackToHome={() => setCurrentPage("landing")}
-          loading={loading}
-          refreshing={refreshing}
-          onRefresh={handleForceRefresh}
-        />
-      )}
 
-      {/* Global Error Banner */}
-      {error && (
-        <div className="fixed bottom-4 right-4 max-w-sm bg-red-600 text-white rounded-2xl p-4 shadow-xl z-50 flex items-start gap-3 border border-red-500 animate-slide-in">
-          <div className="p-1 bg-red-700 rounded-lg">
-            <RefreshCw className="w-5 h-5 animate-spin" />
-          </div>
-          <div className="flex-1">
-            <h4 className="font-bold text-xs">Sorun Oluştu</h4>
-            <p className="text-[11px] text-red-100 mt-0.5 leading-relaxed">{error}</p>
-            <button
-              onClick={fetchCenters}
-              className="mt-2 text-[10px] font-black underline uppercase tracking-wider text-white"
-            >
-              Yeniden Dene
-            </button>
-          </div>
-        </div>
-      )}
-    </div>
-  );
-}
+  const handleForceRefresh = async () => {
+    setRefreshing(true);
+    await fetchCenters();
+    setRefreshing(false);
+  };
+
+  useEffect(() => {
+    fetchCenters();
+  }, []);
