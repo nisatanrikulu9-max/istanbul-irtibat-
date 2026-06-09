@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "name": "Test Merkezi",
+    "district": "Beşiktaş",
+    "address": "Örnek Mah. Test Sok.",
+    "phone": "0212 000 00 00",
+    "latitude": 41.042,
+    "longitude": 29.006
+  }
+]
