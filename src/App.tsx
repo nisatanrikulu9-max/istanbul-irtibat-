@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import LandingPage from './components/LandingPage';
 import MapPage from './components/MapPage';
 export default function App() {
