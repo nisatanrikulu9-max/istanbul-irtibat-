@@ -16,7 +16,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch("/merkez.json");
+      const res = await fetch("/merkezler.json");
       if (!res.ok) throw new Error("Veri dosyası bulunamadı");
       const data = await res.json();
       setCenters(data);
