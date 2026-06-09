@@ -25,16 +25,7 @@ export default function App() {
       setError("Veriler yüklenemedi.");
     } finally {
       setLoading(false);
-    }
-  };
-  };
-    } catch (e: any) {
-      console.error("API error fetching centers:", e);
-      setError(e.message || "Bilinmeyen bir hata oluştu.");
-    } finally {
-      setLoading(false);
-    }
-  };
+   };
 
   // Trigger manual refresh on the spreadsheet
   const handleForceRefresh = async () => {
