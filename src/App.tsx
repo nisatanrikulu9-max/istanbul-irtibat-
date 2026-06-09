@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import LandingPage from "./components/LandingPage";
 import MapPage from "./components/MapPage";
 import { Center } from "./types";
@@ -20,14 +21,6 @@ export default function App() {
       if (!res.ok) throw new Error("Veri dosyası bulunamadı");
       const data = await res.json();
       setCenters(data);
-    } catch (e: any) {
-      console.error("Hata:", e);
-      setError("Veriler yüklenemedi.");
-    } finally {
-      setLoading(false);
-    }
-  };
-  };
     } catch (e: any) {
       console.error("API error fetching centers:", e);
       setError(e.message || "Bilinmeyen bir hata oluştu.");
@@ -66,6 +59,7 @@ export default function App() {
 
   return (
     <div id="app-viewport" className="min-h-screen bg-slate-50 text-slate-800">
+      <SpeedInsights />
       {currentPage === "landing" ? (
         <LandingPage
           onExploreMap={() => setCurrentPage("map")}
