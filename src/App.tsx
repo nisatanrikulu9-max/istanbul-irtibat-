@@ -22,7 +22,7 @@ export default function App() {
       }
       const result = await res.json();
       if (result.success && result.data) {
-        setCenters(result.data);
+        setCenters(result);
       } else {
         throw new Error("Geçersiz veri biçimi");
       }
