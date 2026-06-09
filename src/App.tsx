@@ -15,6 +15,7 @@ export default function App() {
       const res = await fetch("/merkezler.json");
       if (!res.ok) throw new Error("Veri dosyası bulunamadı");
       const data = await res.json();
+      setCenters(Array.isArray(data) ? data : []);
       setCenters(data);
     } catch (e: any) {
       console.error("Hata:", e);
