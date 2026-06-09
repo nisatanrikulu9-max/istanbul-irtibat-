@@ -1,4 +1,4 @@
-mport { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import LandingPage from './LandingPage'; // Dosya ismin buysa
 import MapPage from './MapPage'; // Dosya ismin buysa
 
@@ -32,3 +32,15 @@ export default function App() {
   useEffect(() => {
     fetchCenters();
   }, []);
+
+  return (
+    <div className="min-h-screen bg-slate-50 text-slate-800">
+      <MapPage 
+        centers={centers} 
+        loading={loading} 
+        refreshing={refreshing} 
+        onRefresh={handleForceRefresh}
+      />
+    </div>
+  );
+}
